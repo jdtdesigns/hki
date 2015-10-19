@@ -1,0 +1,83 @@
+// Resets
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+// Globals
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.center {
+	justify-content: center;
+}
+
+.column-center {
+	align-items: center;
+}
+
+.right {
+	justify-content: flex-end;
+}
+
+.split {
+	justify-content: space-between;
+}
+
+// Page Styles
+
+.video-wrap {
+	position: absolute;
+	overflow: hidden;
+	min-width: 100%;
+	min-height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	video {
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+	}
+}
+
+header {
+	height: 140px;
+	.header-bg {
+		position: absolute;
+		height: 140px;
+		background: #1F1E1D;
+		top: 0;
+		left: 0;
+		width: 100%;
+		opacity: .8;
+	}
+}
