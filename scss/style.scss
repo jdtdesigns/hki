@@ -1,6 +1,8 @@
 //Variables
 $tan: #7D6940;
 $bg: #1F1E1C;
+$pink: #F43EB2;
+$bgpink: #1F0F19;
 
 // Resets
 * {
@@ -68,7 +70,7 @@ h1, h2, h3, {
 	height: 100%;
 	background-size: 2px 2px;
 	opacity: .2;
-	background: repeating-linear-gradient(0deg, #0E0907, #0E0907 1px, transparent 1px, transparent 1px), repeating-linear-gradient(-90deg, #0E0907, #0E0907 1px, transparent 1px, transparent 1px);
+	background: repeating-linear-gradient(0deg, $bg, $bg 1px, transparent 1px, transparent 1px), repeating-linear-gradient(-90deg, $bg, $bg 1px, transparent 1px, transparent 1px);
 }
 
 .video-wrap {
@@ -95,7 +97,7 @@ header {
 	.header-bg {
 		position: absolute;
 		height: 140px;
-		background: #1F1E1D;
+		background: $bg;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -126,7 +128,7 @@ header {
 	.divider-left, .divider-right {
 		position: absolute;
 		bottom: 0;
-		background: #E8D9BF;
+		background: $tan;
 		height: 1px;
 	}
 	.divider-left {
@@ -143,6 +145,32 @@ header {
 .diamond, .diamond-small {
 	position: absolute;	
 	bottom: 0;
+}
+
+.pink {
+	header {
+		.header-bg {
+			background: $bgpink;
+		}
+	}
+	.diamond {
+		border: 5px solid $pink;
+		.tm {
+			background: $pink;
+		}
+		.we-are {
+			h2:nth-child(2) {
+				color: $pink;
+			}
+			h3:after {
+				background: $pink;
+			}
+		}	
+	}
+	footer {
+		background: rgba(31, 15, 25, .9);
+	}
+	
 }
 
 .diamond {
@@ -246,7 +274,7 @@ footer {
 		}
 	}
 	& div:nth-child(2) {
-		background: #101010;
+		background: #130511;
 		a {
 			font-style: normal;
 			&:first-child {
