@@ -1,14 +1,10 @@
 <svg version="1.1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" viewBox="0 0 163.6 163.6"
-	 overflow="scroll" enable-background="new 0 0 163.6 163.6" xml:space="preserve">
+	 x="0px" y="0px" viewBox="0 0 166.5 166.5"
+	 overflow="scroll" enable-background="new 0 0 166.5 166.5" xml:space="preserve">
 <defs>
 </defs>
-<g>
-	<path fill="#BFA774" d="M81.8,163.6L0,81.8L81.8,0l81.8,81.8L81.8,163.6z M1.1,81.8l80.7,80.7l80.7-80.7L81.8,1.1L1.1,81.8z"/>
-</g>
-<g>
-	<path fill="#BFA774" d="M72.5,114.4V68.1H65v-7.4h7.6v-2.6c0-7.6,1.7-14.4,6.2-18.8c3.7-3.6,8.6-5,13.1-5c3.4,0,6.4,0.8,8.3,1.6
-		l-1.3,7.6c-1.4-0.7-3.4-1.2-6.2-1.2c-8.3,0-10.4,7.3-10.4,15.6v2.9h13v7.4h-13v46.3H72.5z"/>
-</g>
+<path fill="#E8D9BF" d="M83.2,0L0,83.2l83.2,83.2l83.2-83.2L83.2,0z M83.2,162.5L3.9,83.2L83.2,3.9l79.3,79.3L83.2,162.5z"/>
+<path fill="#E8D9BF" d="M74.4,59.5v2.1h-8v8h8v46h9v-46h13v-8h-13v-2.5c0-8.2,2.2-15.6,10.6-15.6c2.8,0,4.8,0.6,6.3,1.2l1.4-7.6
+	c-1.9-0.8-4.9-1.6-8.3-1.6c-4.6,0-9.2,1.4-12.9,5C75.8,45.1,74.4,52,74.4,59.5z"/>
 </svg>

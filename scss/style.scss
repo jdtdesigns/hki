@@ -1,8 +1,12 @@
+//Variables
+$tan: #BFA774;
+
 // Resets
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -11,16 +15,22 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #E8E7E4;
 }
 
 body {
 	height: 100%;
 	overflow-x: hidden;
+	color: #E8E7E4;
+}
+
+h1, h2 {
+	color: #C8BEB9;
 }
 
 // Globals
 .container {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -50,6 +60,13 @@ body {
 }
 
 // Page Styles
+.overlay {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: rgba(33,32,31, .3);
+}
 
 .video-wrap {
 	position: absolute;
@@ -71,6 +88,7 @@ body {
 
 header {
 	height: 140px;
+	position: relative;
 	.header-bg {
 		position: absolute;
 		height: 140px;
@@ -78,6 +96,101 @@ header {
 		top: 0;
 		left: 0;
 		width: 100%;
+		opacity: .9;
+		z-index: -1;
+	}
+	.logo {
+		width: 115px;
+		height: 115px;
+	}
+	nav {
+		img {
+			margin-right: 15px;
+		}
+		a {
+			margin-right: 25px;
+			text-transform: uppercase;
+			font-size: .98em;
+		}
+	}
+	.social-icons {
+		img {
+			width: 35px;
+			height: 35px;
+			margin-right: 4px;
+		}
+	}
+	.divider-left, .divider-right {
+		position: absolute;
+		bottom: 0;
+		background: #E8D9BF;
+		height: 1px;
+	}
+	.divider-left {
+		width: 20%;
+		left: 0;
+	}
+	.divider-right {
+		width: 80%;
+		right: 0;
 		opacity: .8;
+	}
+}
+
+.diamond, .diamond-small {
+	position: absolute;	
+	bottom: 0;
+}
+
+.diamond {
+	top: 265px;
+	height: 320px;
+	width: 320px;
+	border: 5px solid $tan;
+	transform: rotate(45deg);
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	.diamond-small {
+		top: 10px;
+		left: 10px;
+		width: 290px;
+		height: 290px;
+		background: #1F1E1C;
+		opacity: .8;
+
+	}
+	.tm {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 20px;
+		left: 20px;
+		background: $tan;
+		span {
+			display: block;
+			color: #2E2E2E;
+			margin: 6px 0 0 5px;
+			font-family: serif;
+			transform: rotate(-45deg);
+		}
+	}
+	.we-are {
+		position: absolute;
+		right: 45px;
+		top: 90px;
+		transform: rotate(-45deg);
+		h2 {
+			font-family: serif;
+			font-size: 2.3em;
+			font-weight: 400;
+			text-transform: uppercase;
+			text-align: center;
+			letter-spacing: 2px;
+			line-height: 1.3;
+			&:last-child {
+				color: $tan;
+			}
+		}
 	}
 }

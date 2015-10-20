@@ -1,13 +1,14 @@
 <svg version="1.1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" viewBox="0 0 472.4 472.4"
-	 overflow="scroll" enable-background="new 0 0 472.4 472.4" xml:space="preserve">
+	 x="0px" y="0px" viewBox="0 0 383.5 383.5"
+	 overflow="scroll" enable-background="new 0 0 383.5 383.5" xml:space="preserve">
 <defs>
 </defs>
-<circle fill="#1E1E1E" cx="236.2" cy="236.2" r="236.2"/>
+<circle fill="#1E1E1E" cx="191.8" cy="191.8" r="191.8"/>
 <g>
-	<polygon fill="#BFA774" points="171.1,127.2 88,248.2 88,345.4 237.3,127.2 	"/>
-	<polygon fill="#BFA774" points="311.4,127.2 245.2,127.2 162,248.2 162,345.4 224.2,254.8 264.6,333.2 314.3,333.2 253,213.1 	"/>
-	<rect x="328" y="127.2" fill="#BFA774" width="56" height="206"/>
+	<polygon fill="#BFA774" points="138.9,103.3 71,201.5 71,280.4 192.7,103.3 	"/>
+	<polyline fill="#AF9466" points="175.2,216.8 207.8,280.3 253.2,280.3 203.4,176 	"/>
+	<polyline fill="#BFA774" points="205.4,173 252.9,103.3 199.1,103.3 132,201.5 132,280.4 182.2,206.8 	"/>
+	<rect x="266" y="103.3" fill="#BFA774" width="46" height="177"/>
 </g>
 </svg>
